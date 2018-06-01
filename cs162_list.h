@@ -22,7 +22,7 @@ struct node
 bool find(node * head, int match);
 int remove_all(node * & head);
 int remove_all_2nd(node * & head);
-int display_every_other(node * head);
+int display_every_other(node * head, int step);
 
 //**********************************************
 // These functions are already written and can be called to test out your code
